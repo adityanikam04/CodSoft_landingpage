@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All-in-one-Hotel</title>
+  <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="navbar-logo">ALL-IN-ONE-HOTEL</a>
+        
+        <!-- Hamburger Icon -->
+        <div class="menu-icon" id="menu-icon" aria-label="Toggle navigation" role="button" tabindex="0">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        
+        <!-- Navigation Links -->
+        <ul class="nav-menu" id="nav-menu">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#rooms" class="nav-link">Rooms</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#feedback" class="nav-link">Feedback</a></li>
+          <li class="nav-item"><a href="booking.html" class="nav-link btn-book-now">Book Now</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="image-container">
+    <img src="images/1.jpg"  alt="Luxurious Hotel Room" id="mainImage" loading="lazy">
+    
+  </div>
+  
+  <!-- Hotel Rooms Section -->
+  <section id="rooms" class="rooms-section">
+    <h2>Our Rooms</h2>
+    <div class="rooms-container">
+      
+      <!-- Room 1 -->
+      <div class="room-item">
+        <img src="images/5.jpg" alt="Deluxe Room" class="room-image" loading="lazy">
+        <div class="room-details">
+          <h4>Deluxe Room</h4>
+          <p class="price">₹4999/night</p>
+          <button class="btn-book-room" data-room="Deluxe Room" data-price="4999">Book Now</button>
+        </div>
+      </div>
+      
+      <!-- Room 2 -->
+      <div class="room-item">
+        <img src="images/7.jpg" alt="Suite Room" class="room-image" loading="lazy">
+        <div class="room-details">
+          <h4>Suite Room</h4>
+          <p class="price">₹7999/night</p>
+          <button class="btn-book-room" data-room="Suite Room" data-price="7999">Book Now</button>
+        </div>
+      </div>
+      
+      <!-- Room 3 -->
+      <div class="room-item">
+        <img src="images/8.jpg" alt="Studio Room" class="room-image" loading="lazy">
+        <div class="room-details">
+          <h4>Studio Room</h4>
+          <p class="price">₹3999/night</p>
+          <button class="btn-book-room" data-room="Studio Room" data-price="3999">Book Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2 class="about-heading">About Us</h2> 
+    <p class="welcome-text">WELCOME TO ALL-IN-ONE-HOTEL</p> 
+    <div class="about-container">
+      <p>At ALL-IN-ONE-HOTEL, we pride ourselves on offering luxurious accommodations with top-notch service. Whether you're here for business, leisure, or a special event, we ensure every guest enjoys an unforgettable stay.</p>
+      <p>Our rooms are designed for comfort and relaxation, and our team is dedicated to making your experience exceptional. With world-class amenities and personalized attention, we are the perfect choice for your next getaway.</p>
+    </div>
+  </section>
+  
+  <!-- Facilities Section -->
+  <section id="facilities" class="facilities-section">
+    <h2>Our Facilities</h2>
+    <div class="facilities-container">
+      <div class="facility-item">
+        <img src="images/9.jpg" alt="Spa" class="facility-image" loading="lazy">
+        <h4>Spa & Wellness</h4>
+        <p>Relax and rejuvenate with our premium spa services.</p>
+      </div>
+      <div class="facility-item">
+        <img src="images/10.jpg" alt="Gym" class="facility-image" loading="lazy">
+        <h4>Gym</h4>
+        <p>Stay fit during your stay with access to our fully equipped gym.</p>
+      </div>
+      <div class="facility-item">
+        <img src="images/11.jpg" alt="Restaurant" class="facility-image" loading="lazy">
+        <h4>Restaurant</h4>
+        <p>Enjoy a wide selection of gourmet dishes at our in-house restaurant.</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Feedback Section -->
+  <section id="feedback" class="feedback-section">
+    <h2>Guest Feedback</h2>
+    
+    <div class="feedback-container">
+        <div class="feedback-item">
+            <h4>Alice Roberts</h4>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Absolutely loved my stay! The staff was amazing and the suite was perfect."</p>
+        </div>
+        
+        <div class="feedback-item">
+            <h4>John Smith</h4>
+            <div class="stars">⭐⭐⭐⭐</div>
+            <p>"Great experience. The restaurant had excellent food, and the room was spacious."</p>
+        </div>
+
+        <div class="feedback-item">
+            <h4>Maria Johnson</h4>
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Fantastic stay! The spa services were incredible, and the staff were so friendly."</p>
+        </div>
+
+        <div class="feedback-item">
+            <h4>David Williams</h4>
+            <div class="stars">⭐⭐⭐⭐</div>
+            <p>"A wonderful place to unwind, with great amenities and beautiful rooms."</p>
+        </div>
+    </div>
+
+    <button id="moreFeedback">More Feedback</button>
+</section>
+
+  <script src="js/script.js"></script> 
+</body>
+</html>
